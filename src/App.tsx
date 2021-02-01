@@ -22,7 +22,7 @@ const App: React.FC = () => {
 			<Header />
 			<MovieList>
 				{films.map(item => {
-					return <Card>{item}</Card>;
+					return <Card title={item} image=""></Card>;
 				})}
 			</MovieList>
 		</body>
